@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Stuart</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<dialog id="welcomeDialog">
+    <br>
+    <p><br>This website does not use cookies</p>
+    <br>
+    <img src="Images/cookie.png" alt="cookie icon" class="close-btn" id="closeDialog">
+    <br>
+</dialog>
+
+    <!-- Header -->
+    <header>
+        <section>
+            <div class="titleOfPage" id="Title">
+                <h1>Chris Stuart's Portfolio</h1>
+            </div> 
+        </section>
+
+     <!-- navigation menu -->
+        <hr>
+        <div Id="navbar"> 
+            <nav class="navbar">
+                <ul class="navbar">
+                    <li> <a href="#Title"><img src="Images/home-silhouette-white-icon-vector-15479213.webp" alt="home icon"></a> </li>
+                    <li> <a href="#Resume">Resume</a> </li>
+                    <li> <a href="#Services">Services</a> </li>
+                    <li> <a href="#Skills">Skills</a> </li>
+                    <li> <a href="#Contact">Contact</a> </li>
+                </ul> 
+            </nav> 
+        </div>
+        <hr>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero Section -->
+        <div id="HeroSection">
+            <h5>
+                <img src="images/it-professional.jpg" alt="Image of IT professional Posing"><br><br>
+                Hi, I'm Chris, an IT professional. Join me on my journey! 
+            </h5>
+        </div>
+
+
+        <!-- Call to Action Button -->
+        <hr>
+        <section id="CTAButton">
+            <br><br>
+            <h6>Are you seeking a dedicated IT Pro?<br></h6>              
+                <button onclick="location.href='#Contact'">Contact me!</button>
+            <br>
+            
+            <br>
+        </section>
+        <hr>
+
+
+        <!-- BODY -->
+        <div>
+            <section id="Skills" class="Skills">
+                <h2 class="Heading"> Skills </h2>
+                <div class="containerSkills">
+                        <div>
+                            <h4><i class="fa-brands fa-html5"></i>HTML5</h4>
+                            <p>HTML5 is a recent passion of mine. Fluent in HTML5, I can build you an epic website.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-brands fa-css3"></i>CSS3</h4>
+                            <p>I enjoy transforming bland websites into masterpieces using core concepts in CSS.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-brands fa-js"></i>JavaScript</h4>
+                            <p>Javascript breathes life into your website. Dynamically updating content and creating interactive elements engaging the user.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-brands fa-linux"></i>Linux</h4>
+                            <p>Compentent in using various distributions of Linux. Ubuntu, Mint, Debian and various Arch based distributions. </p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-brands fa-confluence"></i>Confluence</h4>
+                            <p>Confluence is a great tool for collaboration and knowledge management. 5+ years experience creating, maintaining and updating knowledge bases using various tools within Confluence.</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa-brands fa-microsoft"></i>Microsoft</h4>                
+                            <p>As a lifelong Microsoft user, I am familiar with Microsoft products. Access, Defender, Excel, Copilot, Teams, OneDrive, OneNote, Outlook, PowerPoint, SharePoint, Visio, Windows and more. </p>
+                        </div>
+                </div>
+           
+            </section>
+
+            <section id= "Services" class="Services">
+                <h2 class="Heading"> Services </h2>    
+                <div>
+                    <div class="build1">
+                        <img src="Images/building-computer.png" alt="image of building a computer">
+                        <p>Computer builds and repairs</p>
+                    </div>
+                <br>
+                    <div class="build1">
+                        <img src="Images/custom-network.jpg" alt="Image of a messy network">
+                        <p>Personalized and tailored Networks</p>
+                    </div>
+                    </div>
+                
+            </section>
+
+            <section id= "Resume" class="Resume">
+                <h2 class="Heading"> Resume </h2>
+                    <img src="images/fake-resume.jpg" alt="Image of a resume">
+                    <div class= "h4div">
+                        <button onclick="displayModal()">Click here for cat image</button>
+                        <dialog id="myModal"><h4>Lorem ipsum catsum pursum</h4><br><br><img id="catImage" src="images/CatImage.png" alt="Image of a cat"><br><button onclick="closeModal()">Close</button></dialog>
+                    </div>
+            </section>
+
+            <section id= "Contact" class="Contact">
+                <h2 class="Heading"> Contact </h2>
+                    <div class="socials">
+                    <h4><i class="fa-brands fa-google"></i>mail</h4>
+                    <h4><i class="fa-brands fa-linkedin"></i> LinkedIn </h4>
+                    <h4><i class="fa-brands fa-facebook"></i> Facebook </h4>
+                    <h4><i class="fa-brands fa-slack"></i> Slack </h4>
+                    <h4><i class="fa-brands fa-discord"></i> Discord </h4>
+                    <h4><i class="fa-brands fa-twitter"></i> x.com </h4>
+                    </div>
+            </section>
+        </div> 
+    </main>
+
+
+        <!-- Footer -->
+
+       
+        <div class="footing" id="branding">
+        <br>
+            <a href= "https://www.kraken.com/en-ca/prices/bitcoin" target="_blank"><i class="fa-brands fa-btc"></i></a>
+            <p class="fa-brands fa-canadian-maple-leaf"><br></p>            
+        </div>
+        <hr>            
+        <!-- bottom navigation menu -->
+        <div class="navbar"> 
+            <nav class="navbar">
+                <ul class="navbar">
+                    <li> <a href="#Title"><img src="Images/home-silhouette-white-icon-vector-15479213.webp" alt="home icon"></a> </li>
+                    <li> <a href="#Resume">Resume</a> </li>
+                    <li> <a href="#Services">Services</a> </li>
+                    <li> <a href="#Skills">Skills</a> </li>
+                    <li> <a href="#Contact">Contact</a> </li>
+                </ul> 
+            </nav> 
+        </div>
+    <hr>
+    <footer>
+        <p class=copyright>© Stuart 2025</p>        
+        
+
+
+    </footer>
+<script src="https://kit.fontawesome.com/22ec1270b4.js" crossorigin="anonymous"></script>
+<script>
+const modal = document.getElementById("myModal");
+
+function displayModal() {
+modal.showModal();
+}
+
+function closeModal() {
+modal.close();
+}
+</script>
+<script>
+    // Get dialog and close button
+    const dialog = document.getElementById('welcomeDialog');
+    const closeBtn = document.getElementById('closeDialog');
+
+    // Open dialog on page load
+    window.addEventListener('load', () => {
+        if (typeof dialog.showModal === "function") {
+            dialog.showModal();
+        } else {
+            alert("Your browser does not support the <dialog> element.");
+        }
+    });
+
+    // Close dialog
+    closeBtn.addEventListener('click', () => {
+        dialog.close();
+    });
+</script>
+
+</body>
+</html>
